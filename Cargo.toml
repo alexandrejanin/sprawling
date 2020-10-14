@@ -1,0 +1,13 @@
+[package]
+name = "sprawling"
+version = "0.1.0"
+authors = ["Alexandre Janin <alexandrejanin92@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7.3"
+
+[dependencies.cursive]
+version = "0.15.0"
+default-features = false
+features = ["crossterm-backend"]
